@@ -43,9 +43,16 @@ In order for the osTicket service to work, we have a folder of all the programs 
 
 ![image](https://github.com/user-attachments/assets/ab200f2c-4fb7-46c6-b068-8a12c89b05a9)
 
-After we install all the programs needed for osTicket to run properly, we can extract the files to install the actual osTicket client. 
+After we install all the programs needed for osTicket to run properly, we can extract the files to install the actual osTicket client. We use IIS to configure the last few things we need to get osTicket to run. We use HeidiSQL and create a database name osTicket inside.  Now we can use the MySQL credentials we made earlier to install osTicket. 
 
 ![image](https://github.com/user-attachments/assets/9cb73b96-fe26-4c5b-94b5-0c937bd0fc2d)
+![image](https://github.com/user-attachments/assets/d05df7d5-d99a-449f-973d-13e0f764f70b)
+
+
+After all that, you should be able to log in to osTicket and start using the platform. Success! 
+
+![image](https://github.com/user-attachments/assets/d98616d6-cec7-4143-8eff-7baf236fcf08)
+
 
 
 
