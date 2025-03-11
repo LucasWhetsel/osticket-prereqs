@@ -29,12 +29,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install C++
 - Configure Permissions and Install osTicket
 
-<h2>Installation Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+<h2>Installation Steps</h2>
+To begin this project, we first have to login to Microsoft Azure portal. In order to create a virtual machine, a remote desktop, we have to make one using microsft Azure. We name it osticket-vm and set the username and password for this virtual machine.
+
+![image](https://github.com/user-attachments/assets/d5038f24-a6ad-441b-b2c8-0b080eb851d8)
+
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
