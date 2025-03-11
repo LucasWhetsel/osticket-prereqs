@@ -32,19 +32,23 @@ To begin this project, we first have to login to Microsoft Azure portal. In orde
 ![image](https://github.com/user-attachments/assets/d5038f24-a6ad-441b-b2c8-0b080eb851d8)
 
 
-Once we create the virtual machine, locate the public ip address. We will use this to connect to vm using remote desktop.
+Once we create the virtual machine, locate the public ip address. We will use this to connect to vm using remote desktop. If you are a Mac user you will have to download Microsoft Remote Desktop(RDP). Use the username and passowrd you entered while creating the VM.
 ![image](https://github.com/user-attachments/assets/e03b2166-85a9-4633-8acd-0f0c44e50d37)
 
-<p>Next simply connect to your newly created VM using RDP using the public IPv4 address. If you are a Mac user you will have to download Microsoft Remote Desktop(RDP). 
-</p>
-<img src="https://imgur.com/a/nnuyxn0" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
+<p>Once we are logged into the virtual machine, we will have to go into the control panel and enable Internet Information Services(IIS). Access the control panel then select uninstall a program. Off to the left select "Turn windows features on or off". A list will appear then you will enable Internet Information Services. Within IIS, you will select world wide web services, then go to "Application Development features". Make sure to enable CGI.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![image](https://github.com/user-attachments/assets/e60ebd9c-ddf8-47f6-acc5-67b2305e9025)
+
+In order for the osTicket service to work, we have a folder of all the programs that we need to install. The list of programs needed are all included in the photo below. 
+
+![image](https://github.com/user-attachments/assets/ab200f2c-4fb7-46c6-b068-8a12c89b05a9)
+
+After we install all the programs needed for osTicket to run properly, we can extract the files to install the actual osTicket client. 
+
+![image](https://github.com/user-attachments/assets/9cb73b96-fe26-4c5b-94b5-0c937bd0fc2d)
+
+
+
+
+
+
