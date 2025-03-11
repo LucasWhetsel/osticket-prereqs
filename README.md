@@ -33,9 +33,10 @@ To begin this project, we first have to login to Microsoft Azure portal. In orde
 
 
 Once we create the virtual machine, locate the public ip address. We will use this to connect to vm using remote desktop. If you are a Mac user you will have to download Microsoft Remote Desktop(RDP). Use the username and passowrd you entered while creating the VM.
+
 ![image](https://github.com/user-attachments/assets/e03b2166-85a9-4633-8acd-0f0c44e50d37)
 
-<p>Once we are logged into the virtual machine, we will have to go into the control panel and enable Internet Information Services(IIS). Access the control panel then select uninstall a program. Off to the left select "Turn windows features on or off". A list will appear then you will enable Internet Information Services. Within IIS, you will select world wide web services, then go to "Application Development features". Make sure to enable CGI.
+Once we are logged into the virtual machine, we will have to go into the control panel and enable Internet Information Services(IIS). Access the control panel then select uninstall a program. Off to the left select "Turn windows features on or off". A list will appear then you will enable Internet Information Services. Within IIS, you will select world wide web services, then go to "Application Development features". Make sure to enable CGI.
 
 ![image](https://github.com/user-attachments/assets/e60ebd9c-ddf8-47f6-acc5-67b2305e9025)
 
